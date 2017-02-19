@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bs8-wL-N7z">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="44G-u7-5YU">
+            <objects>
+                <tabBarController id="bs8-wL-N7z" customClass="TPPTabBarController" customModule="TPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="vjS-TG-rlc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="y3j-F7-Gxa" kind="relationship" relationship="viewControllers" id="bK7-g4-iPa"/>
+                        <segue destination="ybb-N8-4IR" kind="relationship" relationship="viewControllers" id="ZOh-mF-E5M"/>
+                        <segue destination="J5G-xD-s7O" kind="relationship" relationship="viewControllers" id="QmS-HK-HNK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mwv-XB-eyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1674" y="-494"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="hGv-vX-lEy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Feed" id="y3j-F7-Gxa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="15X-hm-WDP"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X2I-qa-6qo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1050" y="-603"/>
+        </scene>
+        <!--Rewards-->
+        <scene sceneID="msU-6x-3bL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Rewards" id="J5G-xD-s7O" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="fb4-D0-4CN"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lwh-kU-cZm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1050" y="-392"/>
+        </scene>
+        <!--LocalRewards-->
+        <scene sceneID="IWP-4J-xY1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="LocalRewardsVC" storyboardName="LocalRewards" id="ybb-N8-4IR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ehY-Lr-4mT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYL-RW-nOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1020" y="-494"/>
+        </scene>
+    </scenes>
+</document>

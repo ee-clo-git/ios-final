@@ -1,0 +1,138 @@
+PODS:
+  - Alamofire (4.2.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Device (2.0.1)
+  - DZNEmptyDataSet (1.8.1)
+  - DZNWebViewController (3.2)
+  - Eureka (2.0.0-beta.1)
+  - Fabric (1.6.11)
+  - FBSDKCoreKit (4.19.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.19.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.19.0):
+    - FBSDKCoreKit
+  - GrowingTextViewHandler-Swift (1.1)
+  - ImagePicker (2.0.0)
+  - KeychainAccess (3.0.1)
+  - Kingfisher (3.3.3)
+  - Mapbox-iOS-SDK (3.4.1)
+  - MBProgressHUD (1.0.0)
+  - Moya (8.0.1):
+    - Moya/Core (= 8.0.1)
+  - Moya-ObjectMapper/Core (2.3):
+    - Moya (>= 8.0.0)
+    - ObjectMapper (= 2.2.2)
+  - Moya-ObjectMapper/RxSwift (2.3):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (= 3.1.0)
+  - Moya/Core (8.0.1):
+    - Alamofire (~> 4.2.0)
+    - Result (~> 3.1.0)
+  - Moya/RxSwift (8.0.1):
+    - Moya/Core
+    - RxSwift (~> 3.1.0)
+  - ObjectMapper (2.2.2)
+  - RESideMenu (4.0.7)
+  - Result (3.1.0)
+  - RxCocoa (3.1.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.1.0)
+  - SnapKit (3.1.2)
+  - STPopup (1.8.2)
+  - TwitterCore (2.8.0):
+    - Fabric
+  - TwitterKit (2.8.0):
+    - TwitterCore (= 2.8.0)
+  - UICircularProgressRing (1.2.0)
+  - UITextView+Placeholder (1.2.0)
+  - UrbanAirship-iOS-AppExtensions (8.1.6)
+  - UrbanAirship-iOS-SDK (8.1.6)
+  - XLPagerTabStrip (7.0.0)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Device
+  - DZNEmptyDataSet
+  - DZNWebViewController
+  - Eureka (= 2.0.0-beta.1)
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - GrowingTextViewHandler-Swift (= 1.1)
+  - ImagePicker (from `https://github.com/love4soul/ImagePicker`, branch `feature/video_support`)
+  - KeychainAccess
+  - Kingfisher
+  - Mapbox-iOS-SDK
+  - MBProgressHUD
+  - Moya
+  - Moya-ObjectMapper/RxSwift
+  - RESideMenu
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - STPopup
+  - TwitterKit
+  - UICircularProgressRing
+  - UITextView+Placeholder
+  - UrbanAirship-iOS-AppExtensions
+  - UrbanAirship-iOS-SDK
+  - XLPagerTabStrip
+
+EXTERNAL SOURCES:
+  ImagePicker:
+    :branch: feature/video_support
+    :git: https://github.com/love4soul/ImagePicker
+
+CHECKOUT OPTIONS:
+  ImagePicker:
+    :commit: 66a0f6e01a7d55e13fe33135eaf9f7b3b17ea3b9
+    :git: https://github.com/love4soul/ImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Device: 7dd12a4fc8a72a90211f2c9ac8975a728322a148
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  DZNWebViewController: 8e927a5de637fe0c4104c001d5cccd4fa5621e50
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
+  FBSDKShareKit: 5953758366278430dc322d5cdc906db361ed7f81
+  GrowingTextViewHandler-Swift: c5da012c47e2a6836355080f1432125881d4732c
+  ImagePicker: 81175d36c2852cb543cb4f5d6c19e28f3e8d90eb
+  KeychainAccess: 017ea25e313a49eda10bb19b0bb0760fb1edfe1a
+  Kingfisher: 893215a42e5c2164e916f69463c68003092b104c
+  Mapbox-iOS-SDK: 9c0d23e9a3784e6c9e45af4339898e4598b5b09b
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Moya: f2e10a04fcb27fec154cb2afa4e536e8b46dac04
+  Moya-ObjectMapper: b7f1f44f02b14c97d8a8efe9c6f8e6072252a58c
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  RxCocoa: 50d7564866da9299161e86a263ce12a0873904d8
+  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  STPopup: b69b3e7484ef7d2baec5f9ab2939f8a7bcdfe218
+  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
+  TwitterKit: f7b0a1adcb800f6446ff0ef70164797376522ff3
+  UICircularProgressRing: 30d39b228416c6048cc31962cadcca8adfa0fb91
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  UrbanAirship-iOS-AppExtensions: 9c3992f576f0fed244ccfec528cb3461fb3ef24d
+  UrbanAirship-iOS-SDK: 97f134af22ecadd364d784074dfe0e708ca6fcaf
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+
+PODFILE CHECKSUM: 317bf9248fbecc845b20291a80612f984b0b4abc
+
+COCOAPODS: 1.1.1
